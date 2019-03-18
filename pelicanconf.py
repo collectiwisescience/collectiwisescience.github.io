@@ -19,6 +19,14 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+#DISPLAY_CATEGORIES_ON_MENU = True
+#DISPLAY_PAGES_ON_MENU = True
+
+
+
+
+
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
@@ -38,3 +46,8 @@ MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATH = './plugins'
 PLUGINS = ['ipynb.markup']
+
+THEME = 'notmyidea'
+
+
+
