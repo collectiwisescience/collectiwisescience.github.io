@@ -19,4 +19,4 @@ Create a commit and push to GitHub like normal (using git add, git commit, and g
 Run _ghp-import output -b master_ to import everything in the output folder to the master branch
 Use _git push origin master_ to push your content to GitHub.
 
-
+Resrouces: https://www.dataquest.io/blog/how-to-setup-a-data-science-blog
