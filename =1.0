@@ -1,0 +1,93 @@
+Collecting jupyter
+  Using cached https://files.pythonhosted.org/packages/83/df/0f5dd132200728a86190397e1ea87cd76244e42d39ec5e88efd25b2abd7e/jupyter-1.0.0-py2.py3-none-any.whl
+Collecting notebook (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/f6/36/89ebfffc9dd8c8dbd81c1ffb53e3d4233ee666414c143959477cb07cc5f5/notebook-5.7.8-py2.py3-none-any.whl (9.0MB)
+Collecting qtconsole (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/e0/7a/8aefbc0ed078dec7951ac9a06dcd1869243ecd7bcbce26fa47bf5e469a8f/qtconsole-4.4.3-py2.py3-none-any.whl (113kB)
+Collecting ipykernel (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/d8/b0/f0be5c5ab335196f5cce96e5b889a4fcf5bfe462eb0acc05cd7e2caf65eb/ipykernel-5.1.0-py3-none-any.whl (113kB)
+Collecting nbconvert (from jupyter)
+  Using cached https://files.pythonhosted.org/packages/b8/39/1e67fea74dc9577cc49f9863fe3ec824e525d1304ab6027d95a94cd586f5/nbconvert-5.4.1-py2.py3-none-any.whl
+Collecting ipywidgets (from jupyter)
+  Using cached https://files.pythonhosted.org/packages/30/9a/a008c7b1183fac9e52066d80a379b3c64eab535bd9d86cdc29a0b766fd82/ipywidgets-7.4.2-py2.py3-none-any.whl
+Collecting jupyter-console (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/cb/ee/6374ae8c21b7d0847f9c3722dcdfac986b8e54fa9ad9ea66e1eb6320d2b8/jupyter_console-6.0.0-py2.py3-none-any.whl
+Collecting tornado<7,>=4.1 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/03/3f/5f89d99fca3c0100c8cede4f53f660b126d39e0d6a1e943e95cc3ed386fb/tornado-6.0.2.tar.gz (481kB)
+Collecting nbformat (from notebook->jupyter)
+  Using cached https://files.pythonhosted.org/packages/da/27/9a654d2b6cc1eaa517d1c5a4405166c7f6d72f04f6e7eea41855fe808a46/nbformat-4.4.0-py2.py3-none-any.whl
+Collecting prometheus-client (from notebook->jupyter)
+  Using cached https://files.pythonhosted.org/packages/4c/bd/b42db3ec90ffc6be805aad09c1cea4bb13a620d0cd4b21aaa44d13541d71/prometheus_client-0.6.0.tar.gz
+Collecting Send2Trash (from notebook->jupyter)
+  Using cached https://files.pythonhosted.org/packages/49/46/c3dc27481d1cc57b9385aff41c474ceb7714f7935b1247194adae45db714/Send2Trash-1.5.0-py3-none-any.whl
+Collecting traitlets>=4.2.1 (from notebook->jupyter)
+  Using cached https://files.pythonhosted.org/packages/93/d6/abcb22de61d78e2fc3959c964628a5771e47e7cc60d53e9342e21ed6cc9a/traitlets-4.3.2-py2.py3-none-any.whl
+Collecting jupyter-client>=5.2.0 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/3b/c3/3043fe9ffd140d03c9d091a056794ccdc427c56ec19b8eea74f9ea0a498f/jupyter_client-5.2.4-py2.py3-none-any.whl (89kB)
+Collecting ipython-genutils (from notebook->jupyter)
+  Using cached https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
+Collecting jupyter-core>=4.4.0 (from notebook->jupyter)
+  Using cached https://files.pythonhosted.org/packages/1d/44/065d2d7bae7bebc06f1dd70d23c36da8c50c0f08b4236716743d706762a8/jupyter_core-4.4.0-py2.py3-none-any.whl
+Collecting terminado>=0.8.1 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/a7/56/80ea7fa66565fa75ae21ce0c16bc90067530e5d15e48854afcc86585a391/terminado-0.8.2-py2.py3-none-any.whl
+Collecting pyzmq>=17 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/39/7a/9b98aabbde03fc4c5c38079ddec1331af3846d80c0b73bdb691a21adee9c/pyzmq-18.0.1-cp35-cp35m-manylinux1_x86_64.whl (1.0MB)
+Requirement already satisfied: jinja2 in /home/charlie/environments/blog/lib/python3.5/site-packages (from notebook->jupyter) (2.10)
+Requirement already satisfied: pygments in /home/charlie/environments/blog/lib/python3.5/site-packages (from qtconsole->jupyter) (2.3.1)
+Collecting ipython>=5.0.0 (from ipykernel->jupyter)
+  Using cached https://files.pythonhosted.org/packages/46/b5/ca080401b8dbde51a0f4377b4e22ce02b266340a1cda389b6dea702d06d1/ipython-7.4.0-py3-none-any.whl
+Collecting bleach (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/ab/05/27e1466475e816d3001efb6e0a85a819be17411420494a1e602c36f8299d/bleach-3.1.0-py2.py3-none-any.whl (157kB)
+Collecting defusedxml (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/87/1c/17f3e3935a913dfe2a5ca85fa5ccbef366bfd82eb318b1f75dadbf0affca/defusedxml-0.5.0-py2.py3-none-any.whl
+Collecting pandocfilters>=1.4.1 (from nbconvert->jupyter)
+Collecting testpath (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/be/a4/162f9ebb6489421fe46dcca2ae420369edfee4b563c668d93cb4605d12ba/testpath-0.4.2-py2.py3-none-any.whl (163kB)
+Collecting entrypoints>=0.2.2 (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/ac/c6/44694103f8c221443ee6b0041f69e2740d89a25641e62fb4f2ee568f2f9c/entrypoints-0.3-py2.py3-none-any.whl
+Collecting mistune>=0.8.1 (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/09/ec/4b43dae793655b7d8a25f76119624350b4d65eb663459eb9603d7f1f0345/mistune-0.8.4-py2.py3-none-any.whl
+Collecting widgetsnbextension~=3.4.0 (from ipywidgets->jupyter)
+  Using cached https://files.pythonhosted.org/packages/8a/81/35789a3952afb48238289171728072d26d6e76649ddc8b3588657a2d78c1/widgetsnbextension-3.4.2-py2.py3-none-any.whl
+Collecting prompt-toolkit<2.1.0,>=2.0.0 (from jupyter-console->jupyter)
+  Downloading https://files.pythonhosted.org/packages/f7/a7/9b1dd14ef45345f186ef69d175bdd2491c40ab1dfa4b2b3e4352df719ed7/prompt_toolkit-2.0.9-py3-none-any.whl (337kB)
+Collecting jsonschema!=2.5.0,>=2.4 (from nbformat->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/aa/69/df679dfbdd051568b53c38ec8152a3ab6bc533434fc7ed11ab034bf5e82f/jsonschema-3.0.1-py2.py3-none-any.whl (54kB)
+Requirement already satisfied: six in /home/charlie/environments/blog/lib/python3.5/site-packages (from traitlets>=4.2.1->notebook->jupyter) (1.12.0)
+Collecting decorator (from traitlets>=4.2.1->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/5f/88/0075e461560a1e750a0dcbf77f1d9de775028c37a19a346a6c565a257399/decorator-4.4.0-py2.py3-none-any.whl
+Requirement already satisfied: python-dateutil>=2.1 in /home/charlie/environments/blog/lib/python3.5/site-packages (from jupyter-client>=5.2.0->notebook->jupyter) (2.8.0)
+Collecting ptyprocess; os_name != "nt" (from terminado>=0.8.1->notebook->jupyter)
+  Using cached https://files.pythonhosted.org/packages/d1/29/605c2cc68a9992d18dada28206eeada56ea4bd07a239669da41674648b6f/ptyprocess-0.6.0-py2.py3-none-any.whl
+Requirement already satisfied: MarkupSafe>=0.23 in /home/charlie/environments/blog/lib/python3.5/site-packages (from jinja2->notebook->jupyter) (1.1.1)
+Collecting pickleshare (from ipython>=5.0.0->ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/9a/41/220f49aaea88bc6fa6cba8d05ecf24676326156c23b991e80b3f2fc24c77/pickleshare-0.7.5-py2.py3-none-any.whl
+Collecting pexpect; sys_platform != "win32" (from ipython>=5.0.0->ipykernel->jupyter)
+  Using cached https://files.pythonhosted.org/packages/89/e6/b5a1de8b0cc4e07ca1b305a4fcc3f9806025c1b651ea302646341222f88b/pexpect-4.6.0-py2.py3-none-any.whl
+Collecting jedi>=0.10 (from ipython>=5.0.0->ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/25/2b/1f188901be099d52d7b06f4d3b7cb9f8f09692c50697b139eaf6fa2928d8/jedi-0.13.3-py2.py3-none-any.whl (178kB)
+Requirement already satisfied: setuptools>=18.5 in /home/charlie/environments/blog/lib/python3.5/site-packages (from ipython>=5.0.0->ipykernel->jupyter) (40.8.0)
+Collecting backcall (from ipython>=5.0.0->ipykernel->jupyter)
+Collecting webencodings (from bleach->nbconvert->jupyter)
+  Using cached https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
+Collecting wcwidth (from prompt-toolkit<2.1.0,>=2.0.0->jupyter-console->jupyter)
+  Using cached https://files.pythonhosted.org/packages/7e/9f/526a6947247599b084ee5232e4f9190a38f398d7300d866af3ab571a5bfe/wcwidth-0.1.7-py2.py3-none-any.whl
+Collecting attrs>=17.4.0 (from jsonschema!=2.5.0,>=2.4->nbformat->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/23/96/d828354fa2dbdf216eaa7b7de0db692f12c234f7ef888cc14980ef40d1d2/attrs-19.1.0-py2.py3-none-any.whl
+Collecting pyrsistent>=0.14.0 (from jsonschema!=2.5.0,>=2.4->nbformat->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/8c/46/4e93ab8a379d7efe93f20a0fb8a27bdfe88942cc954ab0210c3164e783e0/pyrsistent-0.14.11.tar.gz (104kB)
+Collecting parso>=0.3.0 (from jedi>=0.10->ipython>=5.0.0->ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/19/b1/522b2671cc6d134c9d3f5dfc0d02fee07cab848e908d03d2bffea78cca8f/parso-0.3.4-py2.py3-none-any.whl (93kB)
+Building wheels for collected packages: tornado, prometheus-client, pyrsistent
+  Building wheel for tornado (setup.py): started
+  Building wheel for tornado (setup.py): finished with status 'done'
+  Stored in directory: /home/charlie/.cache/pip/wheels/61/7e/7a/5e02e60dc329aef32ecf70e0425319ee7e2198c3a7cf98b4a2
+  Building wheel for prometheus-client (setup.py): started
+  Building wheel for prometheus-client (setup.py): finished with status 'done'
+  Stored in directory: /home/charlie/.cache/pip/wheels/4b/04/b8/3709c73e7453f311ebd46ad581b89642543213f995e2659b9e
+  Building wheel for pyrsistent (setup.py): started
+  Building wheel for pyrsistent (setup.py): finished with status 'done'
+  Stored in directory: /home/charlie/.cache/pip/wheels/83/59/9a/a037b9b3c3e93d9275ea0aff9d6064400f372879dfdab01afe
+Successfully built tornado prometheus-client pyrsistent
+Installing collected packages: tornado, decorator, ipython-genutils, traitlets, jupyter-core, attrs, pyrsistent, jsonschema, nbformat, prometheus-client, Send2Trash, wcwidth, prompt-toolkit, pickleshare, ptyprocess, pexpect, parso, jedi, backcall, ipython, pyzmq, jupyter-client, ipykernel, webencodings, bleach, defusedxml, pandocfilters, testpath, entrypoints, mistune, nbconvert, terminado, notebook, qtconsole, widgetsnbextension, ipywidgets, jupyter-console, jupyter
+Successfully installed Send2Trash-1.5.0 attrs-19.1.0 backcall-0.1.0 bleach-3.1.0 decorator-4.4.0 defusedxml-0.5.0 entrypoints-0.3 ipykernel-5.1.0 ipython-7.4.0 ipython-genutils-0.2.0 ipywidgets-7.4.2 jedi-0.13.3 jsonschema-3.0.1 jupyter-1.0.0 jupyter-client-5.2.4 jupyter-console-6.0.0 jupyter-core-4.4.0 mistune-0.8.4 nbconvert-5.4.1 nbformat-4.4.0 notebook-5.7.8 pandocfilters-1.4.2 parso-0.3.4 pexpect-4.6.0 pickleshare-0.7.5 prometheus-client-0.6.0 prompt-toolkit-2.0.9 ptyprocess-0.6.0 pyrsistent-0.14.11 pyzmq-18.0.1 qtconsole-4.4.3 terminado-0.8.2 testpath-0.4.2 tornado-6.0.2 traitlets-4.3.2 wcwidth-0.1.7 webencodings-0.5.1 widgetsnbextension-3.4.2
