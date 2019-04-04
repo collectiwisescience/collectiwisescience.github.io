@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Johannes Castener, Naireen Imtiaz'
 SITENAME = 'CollectiwiseScience'
-SITEURL = 'http://collectiwisescience.github.io'
+SITEURL = ''
 
 PATH = 'content'
 
