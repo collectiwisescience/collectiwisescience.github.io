@@ -47,7 +47,7 @@ MARKUP = ('md', 'ipynb')
 PLUGIN_PATH = './plugins'
 PLUGINS = ['ipynb.markup']
 
-THEME = 'theme/attila'
+THEME = 'attila/'
 IPYNB_USE_METACELL = True
 IPYNB_SKIP_CSS = True
 
